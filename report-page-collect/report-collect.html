@@ -1,0 +1,242 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Your Report</title>
+	<link rel="stylesheet" href="../Stylesheet/print-styles.css">
+	<link rel="stylesheet" href="../Stylesheet/screen-styles.css">
+	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<!-- First Page -->
+	<div class="first-page">
+		<div class="main-header">
+		<div class="logo">
+			<img src="../image/logo-placeholder.png" alt="logo">
+			<a class="print-button" title="Print to PDF" alt="Print to PDF" onclick="window.print();" target="_blank">Print</a>
+		</div>
+		<div class="header-line">
+			<div class="header-line-purple"></div>
+			<div class="header-line-pink"></div>
+			<div class="header-line-orange"></div>
+			<div class="header-line-light-orange"></div>
+			<div class="header-line-yellow"></div>
+		</div>
+		</div>
+		<div class="report-title">
+		<h2 class="report-name1"><strong>Demo Quiz</strong></h2>
+		<h2 class="report-name2">Quiz subtitle</h2>
+		<div class="user-info">
+			<div class="for-whom">
+				<p>PREPARED EXCLUSIVELY FOR:</p>
+				<div id="user-name"></div>
+				<div id="user-name"></div>
+				<div id="address1"></div>
+				<div id="address2"></div>
+				<div id="address3"></div>
+			</div>
+			<div class="by-whom">
+				<p>BY:</p>
+				<div id="advisor-name"></div>
+				<div id="advisor-name"></div>
+				<div id="firmName"></div>
+				<div id="phone"></div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+	<div class="page-break"></div>
+
+	<div class="second-page page">
+		<div class="header">
+		<div class="logo">
+		<img src="../image/logo-placeholder.png" alt="logo">
+		</div>
+		<div class="header-line">
+			<div class="header-line-purple"></div>
+			<div class="header-line-pink"></div>
+			<div class="header-line-orange"></div>
+			<div class="header-line-light-orange"></div>
+			<div class="header-line-yellow"></div>
+		</div>
+		</div>
+		<div class="content">
+			<div class="statement">
+				<h3 class="title">Your Quiz Result</h3>
+				<p>a short paragraph</p>
+				<div class="type-select">
+					<div class="check-box" id="type-portfolio"></div>
+					<div class="type"><strong>Quiz<sup>&#174;</sup> Collect 1</strong></div>
+				</div>
+				<div class="type-select">
+					<div class="check-box" id="type-class"></div>
+					<div class="type"><strong>Quiz<sup>&#174;</sup> Collect 2</strong></div>
+				</div>
+	</div>
+	
+	<div class="page-break"></div>
+
+
+	<div class="fourth-page page">
+		<div class="header">
+			<div class="logo">
+				<img src="../image/logo-placeholder.png" alt="logo">
+			</div>
+			<div class="header-line">
+				<div class="header-line-purple"></div>
+			<div class="header-line-pink"></div>
+			<div class="header-line-orange"></div>
+			<div class="header-line-light-orange"></div>
+			<div class="header-line-yellow"></div>
+			</div>
+		</div>
+		<div class="content">
+			<script type="text/javascript" src="dataBinding.js"></script>
+			<script type="text/javascript" src="report-dynamic-data.json"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js"></script>
+			<div id="report-protofolio-type" class="title"></div>
+			<div class="up-section">
+				<div class="left-section">
+					<div class="pie-chart-section">
+						<div id="pie-chart-date-0"></div>
+						<div id="pir-chart-note">(Actual percentages may vary)</div>
+						<div id="pie-chart-holder-0">
+							<canvas id="pie-chart-0"></canvas>
+						</div>
+					</div>
+					<div class="key-benefits">
+						<div class="title">Key benefits:</div>
+						<ul id="benefit-list"></ul>
+					</div>
+				</div>
+				<div class="right-section">
+					<div id="table-section-0"></div>
+				</div>
+			</div>
+			<div class="bottom-section">
+				<ol id="foot-note"></ol>
+			</div>
+		</div>
+		</div>
+
+	<div class="page-break"></div>
+
+	<!-- Fifth Page -->
+	<div class="fifth-page page">
+		<div class="header">
+		<div class="logo">
+			<img src="../image/logo-placeholder.png" alt="logo">
+		</div>
+		<div class="header-line">
+			<div class="header-line-purple"></div>
+			<div class="header-line-pink"></div>
+			<div class="header-line-orange"></div>
+			<div class="header-line-light-orange"></div>
+			<div class="header-line-yellow"></div>
+		</div>
+		</div>
+		<div class="content">
+			<div class="equity-section">
+				<div class="equity-title">Equity and fixed income sector diversification</div>
+				<div class="data-section">
+				<div class="pie-chart-section-1">
+					<div id="pie-chart-holder-1">
+						<canvas id="pie-chart-1"></canvas>
+					</div>
+				</div>
+				<div id="table-section-1"></div>
+				</div>
+			</div>
+			<div class="geographic-section">
+				<div class="geographic-title">Geographic diversification</div>
+				<div class="data-section">
+				<div class="pie-chart-section-2">
+					<div id="pie-chart-holder-2">
+						<canvas id="pie-chart-2"></canvas>
+					</div>
+				</div>
+				<div id="table-section-2"></div>
+				</div>
+			</div>
+			<div class="bottom-section">
+				<ol id="foot-note"></ol>
+			</div>
+		</div>
+	</div>
+	<div class="page-break"></div>
+
+	<!-- Sixth Page -->
+	<div class="sixth-page page">
+		<div class="header">
+		<div class="logo">
+			<img src="../image/logo-placeholder.png" alt="logo">
+		</div>
+		<div class="header-line">
+			<div class="header-line-purple"></div>
+			<div class="header-line-pink"></div>
+			<div class="header-line-orange"></div>
+			<div class="header-line-light-orange"></div>
+			<div class="header-line-yellow"></div>
+		</div>
+		</div>
+		<div class="content">
+		<div class="advisor-comment">
+			<h3>Advisor comments</h3>
+			<div class="comment-block"></div>
+			<div class="comment-disclaimer"> some disclaimers</div>
+		</div>
+		<div class="acceptance">
+			<h4>AStatement</h4>
+			<p>I have read this  Statement and acknowledge that it accurately reflects my current goals and objectives. </p>
+		</div>
+		<div class="accepted-by">
+			<h4>Accepted by:</h4>
+			<div class="signature investor">
+				<div class="print-name">
+					<div class="empty-line" id="user-name-signature"></div>
+					<div class="signature-instruction">Please print name</div>
+				</div>
+				<div class="sign-name">
+					<div class="empty-line"></div>
+					<div class="signature-instruction">Signature of investor</div>
+				</div>
+				<div class="date">
+					<div class="empty-line-date" id="date-0"></div>
+					<div class="signature-instruction">Date</div>
+				</div>
+			</div>
+			<div class="signature investor">
+				<div class="print-name">
+					<div class="empty-line"></div>
+					<div class="signature-instruction">Please print name</div>
+				</div>
+				<div class="sign-name">
+					<div class="empty-line"></div>
+					<div class="signature-instruction">Signature of investor</div>
+				</div>
+				<div class="date">
+					<div class="empty-line-date"></div>
+					<div class="signature-instruction">Date</div>
+				</div>
+			</div>
+			<div class="signature advisor">
+				<div class="print-name">
+					<div class="empty-line" id="advisor-name-signature"></div>
+					<div class="signature-instruction">Please print name</div>
+				</div>
+				<div class="sign-name">
+					<div class="empty-line"></div>
+					<div class="signature-instruction">Signature of Advisor</div>
+				</div>
+				<div class="date">
+					<div class="empty-line-date" id="date-1"></div>
+					<div class="signature-instruction">Date</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,206 @@
+{	
+	"reportProfolioTitle": "QUIZ AMASS",
+	"benefits": ["benefit 1", 
+				"benefit 2",
+				"benefit 3"],
+	"date": "OCTOBER 20, 2017",
+	"fundsChart" : [
+					{
+						"type" : "INCOME",
+						"percentage" : 4,
+						"colour": "#7C4496",
+						"subType" : [
+										{
+											"name": "Fund",
+											"percentage": 2
+										},
+										{
+											"name": "Fund",
+											"percentage": 2
+										}]
+					},
+					{
+						"type" : "INCOME",
+						"percentage" : 78,
+						"colour": "#D02259",
+						"subType" : [{
+											"name": "Fund",
+											"superscript": 1,
+											"percentage": 24
+										},
+										{
+											"name": "Fund",
+											"percentage": 15
+										},
+
+										{
+											"name": "Fund",
+											"percentage": 10
+										},
+										{
+											"name": "Fund",
+											"percentage": 8
+										},
+										{
+											"name": "Fund",
+											"percentage": 4
+										},
+										{
+											"name": "Fund",
+											"percentage": 3
+										},
+										{
+											"name": "Fund",
+											"percentage": 3
+										},
+										{
+											"name": "Fund",
+											"percentage": 3
+										},
+										{
+											"name": "Fund",
+											"superscript": 2,
+											"percentage": 3
+										},
+
+										{
+											"name": "Fund",
+											"percentage": 2
+										},
+										{
+											"name": "Fund",
+											"superscript": 2,
+											"percentage": 2
+										},
+										{
+											"name": "Fund",
+											"superscript": 2,
+											"percentage": 1
+										}]
+					},
+					{
+						"type" : "INCOME",
+						"percentage" : 18,
+						"colour": "#FFB819",
+						"subType" : [{
+											"name": "Fund",
+											"percentage": 18
+									    }]
+					}],
+	"footNote" : [ "footnote 1",
+					"footnote 2"],
+	"equityChart": [
+					{
+						"type" : "EQUITY",
+						"percentage" : 89.6,
+						"colour": "#ED5A36",
+						"subType" : [{
+										"name": "eq",
+										"percentage": 6.5
+									},
+									{
+										"name": "eq",
+										"percentage": 9.0
+									},
+									{
+										"name": "eq",
+										"percentage": 6.9
+									},
+									{
+										"name": "eq",
+										"percentage": 14.5
+									},
+									{
+										"name": "eq",
+										"percentage": 6.9
+									},
+									{
+										"name": "eq",
+										"percentage": 9.7
+									},
+									{
+										"name": "eq",
+										"percentage": 12.9
+									},
+									{
+										"name": "eq",
+										"percentage": 4.8
+									},
+									{
+										"name": "eq",
+										"percentage": 1.9
+									},
+									{
+										"name": "eq",
+										"percentage": 3.3
+									},
+									{
+										"name": "eq",
+										"percentage": 0.8
+									},
+									{
+										"name": "Other",
+										"percentage": 12.5
+									}]
+					},
+					{
+						"type" : "INCOME",
+						"percentage" : 0,
+						"colour": "#F47E20",
+						"subType" : []
+					},
+					{
+						"type" : "INCOME",
+						"percentage" : 10.4,
+						"colour": "#7C4496",
+						"subType" : []
+					}],
+	"geographicChart":[
+					{
+						"type": "geographic",
+						"percentage" : 100.0,
+						"colour": "#ED5A36",
+						"subType": [
+									{
+										"name": "country",
+										"percentage": 48.5
+									},
+									{
+										"name": "country",
+										"percentage": 13.7
+									},
+									{
+										"name": "country",
+										"percentage": 12.6
+									},
+									{
+										"name": "country",
+										"percentage": 3.9
+									},
+									{
+										"name": "country",
+										"percentage": 2.8
+									},
+									{
+										"name": "country",
+										"percentage": 2.4
+									},
+									{
+										"name": "country",
+										"percentage": 2.3
+									},
+									{
+										"name": "country",
+										"percentage": 2.2
+									},
+									{
+										"name": "country",
+										"percentage": 1.8
+									},
+									{
+										"name": "Other",
+										"percentage": 9.6
+									}]
+					}]
+
+}

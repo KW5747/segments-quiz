@@ -1,0 +1,258 @@
+{	
+	"reportProfolioTitle": "QUIZ CACHE",
+	"benefits": ["benefit 1", 
+				"benefit 2",
+				"benefit 3"],
+	"date": "OCTOBER 20, 2017",
+	"fundsChart" : [{
+						"type" : "INCOME",
+						"percentage" : 3,
+						"colour": "#ED5A36",
+						"subType" : [{
+											"name": "Fund",
+											"percentage": 3
+										}]
+					},
+					{
+						"type" : "INCOME",
+						"percentage" : 13,
+						"colour": "#F47E20",
+						"subType" : [{
+											"name": "Fund",
+											"percentage": 6
+										},
+										{
+											"name": "Fund",
+											"percentage": 3
+										},
+										{
+											"name": "Fund",
+											"percentage": 2
+										},
+										{
+											"name": "Fund",
+											"superscript": 1,
+											"percentage": 2
+										}]
+					},
+					{
+						"type" : "INCOME",
+						"percentage" : 12,
+						"colour": "#7C4496",
+						"subType" : [{
+											"name": "Fund",
+											"percentage": 5
+										},
+										{
+											"name": "Fund",
+											"percentage": 4
+										},
+										{
+											"name": "Fund",
+											"percentage": 2
+										},
+										{
+											"name": "Fund",
+											"superscript": 3,
+											"percentage": 1
+										}]
+					},
+					{
+						"type" : "INCOME",
+						"percentage" : 57,
+						"colour": "#D02259",
+						"subType" : [{
+											"name": "Fund",
+											"superscript": 2,
+											"percentage": 15
+										},
+										{
+											"name": "Fund",
+											"percentage": 11
+										},
+										{
+											"name": "Fund",
+											"percentage": 8
+										},
+										{
+											"name": "Fund",
+											"percentage": 6
+										},
+										{
+											"name": "Fund",
+											"percentage": 4
+										},
+										{
+											"name": "Fund",
+											"percentage": 3
+										},
+										{
+											"name": "Fund",
+											"percentage": 2
+										},
+										{
+											"name": "Fund",
+											"percentage": 2
+										},
+										{
+											"name": "Fund",
+											"percentage": 2
+										},
+										{
+											"name": "Fund",
+											"superscript": 3,
+											"percentage": 2
+										},
+										{
+											"name": "Fund",
+											"superscript": 3,
+											"percentage": 1
+										},
+										{
+											"name": "Fund",
+											"superscript": 3,
+											"percentage": 1
+										}]
+					},
+					{
+						"type" : "INCOME",
+						"percentage" : 15,
+						"colour": "#FFB819",
+						"subType" : [{
+											"name": "Fund",
+											"percentage": 15
+									    }]
+					}],
+	"footNote" : [ "footnote 1",
+					"footnote 2",
+					"footnote 3"],
+	"equityChart": [
+					{
+						"type" : "EQUITY",
+						"percentage" : 75.5,
+						"colour": "#ED5A36",
+						"subType" : [{
+										"name": "eq",
+										"percentage": 5.5
+									},
+									{
+										"name": "eq",
+										"percentage": 6.8
+									},
+									{
+										"name": "eq",
+										"percentage": 7.1
+									},
+									{
+										"name": "eq",
+										"percentage": 12.6
+									},
+									{
+										"name": "eq",
+										"percentage": 5.5
+									},
+									{
+										"name": "eq",
+										"percentage": 7.9
+									},
+									{
+										"name": "eq",
+										"percentage": 10.0
+									},
+									{
+										"name": "eq",
+										"percentage": 4.4
+									},
+									{
+										"name": "eq",
+										"percentage": 1.8
+									},
+									{
+										"name": "eq",
+										"percentage": 2.9
+									},
+									{
+										"name": "eq",
+										"percentage": 0.8
+									},
+									{
+										"name": "Other",
+										"percentage": 10.1
+									}]
+					},
+					{
+						"type" : "INCOME",
+						"percentage" : 15.0,
+						"colour": "#F47E20",
+						"subType" : [{
+										"name": "Fund",
+										"percentage": 6.6
+									},
+									{
+										"name": "Fund",
+										"percentage": 8.2
+									},
+									{
+										"name": "Fund",
+										"percentage": 0.1
+									},
+									{
+										"name": "Other",
+										"percentage": 0.0
+									}]
+					},
+					{
+						"type" : "INCOME",
+						"percentage" : 8.3,
+						"colour": "#7C4496",
+						"subType" : []
+					}],
+	"geographicChart":[
+					{
+						"type": "geographic",
+						"percentage" : 100.0,
+						"colour": "#ED5A36",
+						"subType": [
+									{
+										"name": "country",
+										"percentage": 43.0
+									},
+									{
+										"name": "country",
+										"percentage": 20.9
+									},
+									{
+										"name": "country",
+										"percentage": 10.2
+									},
+									{
+										"name": "country",
+										"percentage": 3.7
+									},
+									{
+										"name": "country",
+										"percentage": 2.2
+									},
+									{
+										"name": "country",
+										"percentage": 2.1
+									},
+									{
+										"name": "country",
+										"percentage": 1.8
+									},
+									{
+										"name": "country",
+										"percentage": 1.7
+									},
+									{
+										"name": "country",
+										"percentage": 1.5
+									},
+									{
+										"name": "Other",
+										"percentage": 12.9
+									}]
+					}]
+
+}
